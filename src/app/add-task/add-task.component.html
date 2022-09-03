@@ -1,0 +1,19 @@
+<h2 mat-dialog-title>Add Task</h2>
+<hr>
+<mat-dialog-content>
+    <form>
+        <div class="formgroup">
+            <label for="title">Title</label>
+            <input type="text" class="form-control">
+        </div>
+        <div class="formgroup mt-2">
+            <label for="date">Date</label>
+            <input type="date" class="form-control">
+        </div>
+        
+    </form>
+</mat-dialog-content>
+<mat-dialog-actions class="mt-2 p-3">
+  <button class="btn btn-dark" mat-button mat-dialog-close>Cancel</button>
+  <button class="btn btn-success ml-2" mat-button [mat-dialog-close]="true">Add Task</button>
+</mat-dialog-actions>

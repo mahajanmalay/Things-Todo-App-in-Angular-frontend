@@ -1,0 +1,17 @@
+.wrapper{
+    margin: auto;
+    margin-top: 60px;
+    width: 900px;
+}
+
+form input {
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid rgb(161, 159, 159);
+    outline: none;
+  }
+
+.iconUser{
+   position: relative;
+   top: 5px;
+}
